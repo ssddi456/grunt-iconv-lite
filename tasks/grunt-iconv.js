@@ -30,7 +30,7 @@ module.exports = function(grunt) {
     }
   };
 
-  grunt.registerMultiTask('grunt-iconvLite', 'trans encoding', function() {
+  grunt.registerMultiTask('grunt-iconv-lite', 'trans encoding', function() {
     // Merge task-specific and/or target-specific options with these defaults.
     var options = this.options({
       fromEncoding : 'utf8',

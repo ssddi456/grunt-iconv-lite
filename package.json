@@ -1,5 +1,5 @@
 {
-  "name": "grunt-iconvLite",
+  "name": "grunt-iconv-lite",
   "description": "trans encoding use iconv-lite",
   "version": "0.1.0",
   "homepage": "",

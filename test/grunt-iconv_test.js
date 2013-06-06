@@ -25,7 +25,7 @@ var fs = require('fs');
     test.ifError(value)
 */
 
-exports["grunt-iconvLite"] = {
+exports["grunt-iconv-lite"] = {
   setUp: function(done) {
     // setup here if necessary
     done();

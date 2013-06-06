@@ -1,5 +1,5 @@
 /*
- * grunt-iconvLite
+ * grunt-iconv-lite
  * 
  *
  * Copyright (c) 2013 ssddi456
@@ -29,7 +29,7 @@ module.exports = function(grunt) {
     },
 
     // Configuration to be run (and then tested).
-    'grunt-iconvLite': {
+    'grunt-iconv-lite': {
       default_options: {
         options: {
         },
@@ -65,7 +65,7 @@ module.exports = function(grunt) {
 
   // Whenever the "test" task is run, first clean the "tmp" dir, then run this
   // plugin's task(s), then test the result.
-  grunt.registerTask('test', ['clean', 'grunt-iconvLite', 'nodeunit']);
+  grunt.registerTask('test', ['clean', 'grunt-iconv-lite', 'nodeunit']);
 
   // By default, lint and run all tests.
   grunt.registerTask('default', ['jshint', 'test']);
