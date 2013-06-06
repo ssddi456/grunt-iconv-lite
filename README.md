@@ -1,4 +1,4 @@
-# y
+# grunt-iconvLite
 
 > trans encoding use iconv-lite
 
@@ -8,27 +8,27 @@ This plugin requires Grunt `~0.4.1`
 If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
 
 ```shell
-npm install y --save-dev
+npm install grunt-iconvLite --save-dev
 ```
 
 Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
 
 ```js
-grunt.loadNpmTasks('y');
+grunt.loadNpmTasks('grunt-iconvLite');
 ```
 
-## The "y" task
+## The "grunt-iconvLite" task
 
 ### Overview
-In your project's Gruntfile, add a section named `y` to the data object passed into `grunt.initConfig()`.
+In your project's Gruntfile, add a section named `grunt-iconvLite` to the data object passed into `grunt.initConfig()`.
 
 ```js
 grunt.initConfig({
-  y: {
+  'grunt-iconvLite': {
     options: {
       // Task-specific options go here.
     },
-    your_target: {
+    files: {
       // Target-specific file lists and/or options go here.
     },
   },
@@ -37,15 +37,15 @@ grunt.initConfig({
 
 ### Options
 
-#### options.separator
+#### options.fromEncoding
 Type: `String`
-Default value: `',  '`
+Default value: `'uft8'`
 
 A string value that is used to do something with whatever.
 
-#### options.punctuation
+#### options.toEncoding
 Type: `String`
-Default value: `'.'`
+Default value: `'gb2312'`
 
 A string value that is used to do something else with whatever else.
 
@@ -56,7 +56,7 @@ In this example, the default options are used to do something with whatever. So 
 
 ```js
 grunt.initConfig({
-  y: {
+  'grunt-iconvLite': {
     options: {},
     files: {
       'dest/default_options': ['src/testing', 'src/123'],
@@ -70,10 +70,10 @@ In this example, custom options are used to do something else with whatever else
 
 ```js
 grunt.initConfig({
-  y: {
+  grunt-iconvLite: {
     options: {
-      separator: ': ',
-      punctuation: ' !!!',
+      fromEncoding: 'gb2312',
+      toEncoding: 'utf8',
     },
     files: {
       'dest/default_options': ['src/testing', 'src/123'],
