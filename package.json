@@ -2,22 +2,22 @@
   "name": "grunt-iconv-lite",
   "description": "trans encoding use iconv-lite",
   "version": "0.1.0",
-  "homepage": "",
+  "homepage": "https://github.com/ssddi456/grunt-iconv-lite/",
   "author": {
     "name": "ssddi456",
     "email": "torrent88410@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/ssddi456/grunt-iconv-lite.git"
   },
   "bugs": {
-    "url": ""
+    "url": "https://github.com/ssddi456/grunt-iconv-lite/issues/"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "/blob/master/LICENSE-MIT"
+      "url": "https://raw.github.com/ssddi456/grunt-iconv-lite/master/LICENSE-MIT"
     }
   ],
   "main": "Gruntfile.js",
